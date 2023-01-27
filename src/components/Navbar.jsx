@@ -18,7 +18,7 @@ const Navbar = () => {
                 
 
                 <div className=' md:flex justify-between items-center space-x-6 '>
-                <a href="/" className='hover:text-[aqua] underline '> About Me.</a>
+                <a href="/" className='hidden md:flex  hover:text-[aqua] underline '> About Me.</a>
                 <a href="/" className='hidden md:flex hover:text-[aqua] underline'> Pricing</a>
                 <a href="/"className='hidden md:flex hover:text-[aqua] underline'> Contacts</a>
                 <a href="/"className='hidden md:flex hover:text-[aqua] underline'> Careers</a>

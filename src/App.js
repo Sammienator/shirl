@@ -6,6 +6,7 @@ import Features from './components/Features'
 import Testimonial from './components/Testimonial'
 import Cta from './components/Cta'
 import Footer from './components/Footer'
+import Display from './components/Display';
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <Hero/>
 
         <Features/>
+
+        <Display />
 
         <Testimonial />
 
