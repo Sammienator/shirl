@@ -1,12 +1,12 @@
 import React from 'react'
-
+import pic3 from '../assets/pic3.jpg'
 const Features = () => {
   return (
     <div id='features' className='bg-white'>
 
 
-            <h2 className=' flex justify-center mx-16 text-5xl font-bold  '>
-                                My Services...
+            <h2 className=' flex justify-center mx-16 text-5xl font-bold  uppercase underline '>
+                                My Services.
 
                             </h2>
        
@@ -15,9 +15,12 @@ const Features = () => {
 
             <div className='flex flex-col space-y-12 md:w-1/2'>
 
+
+                <img className='m-6 rounded-lg shadow-xl' src={pic3} alt="" />
+
                
 
-                <p className='max-w-md items-center text-center text-darkGraymd:text-left'>
+                <p className='max-w-md items-center mx-auto text-center text-darkGraymd:text-left'>
                    I love Art. I have always seen the world from a different perspective, and i try to showcase what i see,projecting it to society and the world itself.
                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.Quibusdam eum dolores distinctio corrupti! Possimus commodi aut consectetur?
                 </p>
@@ -27,12 +30,12 @@ const Features = () => {
             <div className=' flex flex-col space-y-8 md:w-1/2'>
 
                 <div className='flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row'>
-                    <div className='rounded-l-full bg-[aqua] md:bg-transparent'>
+                    <div className='rounded-l-full bg-[#610300] md:bg-transparent'>
                         <div className='flex items-center space-x-2'>
-                            <div className='px-4 py-2 text-white rounded-full md:py-1 bg-[aqua]'> 01
+                            <div className='px-4 py-2 text-white rounded-full md:py-1 bg-[#610300]'> 01
 
                             </div>
-                            <h3 className='text-base font-bold md:mb-4 md:hidden'>
+                            <h3 className='text-white font-bold md:mb-4 md:hidden'>
                                Art Design and Curation
 
                             </h3>
@@ -62,12 +65,12 @@ const Features = () => {
 
 
                 <div className='flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row'>
-                    <div className='rounded-l-full bg-[aqua] md:bg-transparent'>
+                    <div className='rounded-l-full bg-[#610300] md:bg-transparent'>
                         <div className='flex items-center space-x-2'>
-                            <div className='px-4 py-2 text-white rounded-full md:py-1 bg-[aqua]'> 02
+                            <div className='px-4 py-2 text-white rounded-full md:py-1 bg-[#610300]'> 02
 
                             </div>
-                            <h3 className='text-base font-bold md:mb-4 md:hidden'>
+                            <h3 className='text-white font-bold md:mb-4 md:hidden'>
                             Art and Interior Design
 
                             </h3>
@@ -98,12 +101,12 @@ const Features = () => {
 
 
                 <div className='flex flex-col space-y-3 md:space-y-0 md:space-x-6 md:flex-row'>
-                    <div className='rounded-l-full bg-[aqua] md:bg-transparent'>
+                    <div className='rounded-l-full bg-[#610300] md:bg-transparent'>
                         <div className='flex items-center space-x-2'>
-                            <div className='px-4 py-2 text-white rounded-full md:py-1 bg-[aqua]'> 03
+                            <div className='px-4 py-2 text-white rounded-full md:py-1 bg-[#610300]'> 03
 
                             </div>
-                            <h3 className='text-base font-bold md:mb-4 md:hidden'>
+                            <h3 className='text-white font-bold md:mb-4 md:hidden'>
                                 General Art Consultancy
 
                             </h3>

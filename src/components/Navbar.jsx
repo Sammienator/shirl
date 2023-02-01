@@ -27,7 +27,7 @@ const Navbar = () => {
                 <div>
                     
                         <a href="/"> 
-                        <button className=' block p-3 px-6 pt-2 bg-[aqua] text-white rounded-full baseline hover:bg-blue-600'>
+                        <button className=' block p-3 px-6 pt-2 bg-[#610300] text-white rounded-full baseline hover:bg-blue-600'>
 
                         Get started
 

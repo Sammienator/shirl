@@ -17,7 +17,7 @@ const Footer = () => {
                     <img className='h-20  shadow-xl' src={shirley} alt="" />
                 </div>
 
-                <div id='icons'  className='flex justify-center  space-x-4 p-4 text-3xl hover:scale-110 duration-300 ease-in-out'>
+                <div id='icons'  className='flex justify-center text-[#610300]  space-x-4 p-4 text-3xl hover:scale-110 duration-300 ease-in-out'>
 
                 <FontAwesomeIcon icon={faFacebook} /> 
              <FontAwesomeIcon icon={faGithub} /> 
@@ -29,7 +29,7 @@ const Footer = () => {
             </div>
 
             <div className=' flex justify-around space-x-32'>
-                <div className='flex flex-col space-y-3 text-black font-bold'>
+                <div className='flex flex-col space-y-3 text-[#610300] font-bold'>
                     <a href="/" className='hover:text-[black]'> Home</a>
                     <a href="/" className='hover:text-[black]'> Pricing</a>
                     <a href="/" className='hover:text-[black]'> Contacts</a>
@@ -39,7 +39,7 @@ const Footer = () => {
 
                 </div>
 
-                <div className='flex flex-col space-y-3 text-black font-bold'>
+                <div className='flex flex-col space-y-3 text-[#610300] font-bold'>
                     <a href="/" className='hover:text-[black]'> About</a>
                     <a href="/" className='hover:text-[black]'> FAQ</a>
                     <a href="/" className='hover:text-[black]'> Community</a>
@@ -56,7 +56,7 @@ const Footer = () => {
                     <div className='flex space-x-3'>
                         <input type="text" className="flex-1 px-4 rounded-full focus:outline-black border " placeholder = 'Your email for updates!' />
 
-                       <button className='px-6 py-2 text-black font-bold rounded-full bg-[aqua] hover:bg-blue-300 focus:outline-none'>
+                       <button className='px-6 py-2 text-white font-bold rounded-full bg-[#610300] hover:bg-blue-300 focus:outline-none'>
                         Go.
 
                        </button>
